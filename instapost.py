@@ -102,37 +102,37 @@ CONFIG = {
             'keywords': ['constitution', 'fundamental right', 'directive principle', 'amendment'],
             'ai_prompt': 'Constitutional law concept with Indian constitution, scales of justice, and legal documents in a professional courtroom setting',
             'colors': ['#1a365d', '#2c5282', '#3182ce'],
-            'icon': '⚖️'
+           
         },
         'criminal': {
             'keywords': ['criminal', 'ipc', 'bail', 'arrest', 'custody', 'murder', 'theft'],
             'ai_prompt': 'Criminal justice system with courthouse, handcuffs, and legal books in dramatic lighting',
             'colors': ['#742a2a', '#9c4221', '#c53030'],
-            'icon': '🔒'
+           
         },
         'corporate': {
             'keywords': ['company', 'corporate', 'merger', 'acquisition', 'board', 'director'],
             'ai_prompt': 'Corporate law theme with modern skyscrapers, business documents, and boardroom setting',
             'colors': ['#1a202c', '#2d3748', '#4a5568'],
-            'icon': '🏢'
+           
         },
         'technology': {
             'keywords': ['cyber', 'digital', 'online', 'internet', 'technology', 'data protection'],
             'ai_prompt': 'Digital law and cybersecurity with circuit patterns, data streams, and legal scales in futuristic setting',
             'colors': ['#553c9a', '#6b46c1', '#8b5cf6'],
-            'icon': '💻'
+            
         },
         'international': {
             'keywords': ['international', 'treaty', 'convention', 'global', 'foreign'],
             'ai_prompt': 'International law with world map, flags, and diplomatic symbols in elegant composition',
             'colors': ['#065f46', '#047857', '#059669'],
-            'icon': '🌍'
+           
         },
         'education': {
             'keywords': ['education', 'university', 'college', 'clat', 'ailet', 'exam'],
             'ai_prompt': 'Legal education with law books, graduation cap, and academic symbols in inspiring setting',
             'colors': ['#7c2d12', '#9a3412', '#c2410c'],
-            'icon': '📚'
+            
         }
     }
 }
