@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*_generated_*.png
+enhanced_post_*.jpg
+story_*.jpg

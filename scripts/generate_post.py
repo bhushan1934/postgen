@@ -14,12 +14,14 @@ with open(CONFIG_PATH, "r", encoding="utf-8") as f:
 branding = config["branding"]
 themes = config["legal_themes"]
 
-NEWS_API_KEY = "14ece35abe6e4f83af1ba1fe6e645490"
+NEWS_API_KEY = os.environ.get("NEWS_API_KEY")
 NEWS_SAVE_PATH = os.path.join(os.path.dirname(__file__), "../assets/latest_news.jpg")
 
 
 def fetch_latest_news():
     """Fetch top trending news in India using NewsAPI."""
+    if not NEWS_API_KEY:
+        raise RuntimeError("Set the NEWS_API_KEY environment variable (get a free key at newsapi.org).")
     url = f"https://newsapi.org/v2/everything?q=India&sortBy=publishedAt&language=en&apiKey={NEWS_API_KEY}"
 
     resp = requests.get(url)
